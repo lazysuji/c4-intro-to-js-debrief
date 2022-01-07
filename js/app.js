@@ -10,8 +10,19 @@
 
 //Write your code for GenBuzz below this line:
 
+let myNumber;
 
-
+if (typeof myNumber != "number") {
+    console.log("This is not a number");
+} else if (myNumber % 3 === 0 && myNumber % 5 === 0) {
+    console.log("GenBuzz");
+} else if (myNumber % 3 === 0) {
+    console.log("Gen");
+} else if (myNumber % 5 === 0) {
+    console.log("Buz");
+} else {
+    console.log(myNumber);
+}
 
 
 
@@ -29,7 +40,24 @@
 
 //Write your code for the E-Commerce item list below this line:
 
+let item = "Choose an item: Shoes, Jeans, Hat, and Socks";
 
+switch (item.toLowerCase()) {
+    case "Shoes":
+        console.log(`${item} are $50`);
+        break;
+    case "Jeans":
+        console.log(`${item} are $25`);
+        break;
+    case "Hat":
+        console.log(`${item} is $12`);
+        break;
+    case "Socks":
+        console.log(`${item} are $2`);
+        break;
+    default:
+        console.log("Invalid Item");
+}
 
 
 //3. Print a random integer (whole number) between 50(inclusive) and 100(exclusive) to the console
@@ -37,5 +65,8 @@
 
 //Write your code below this line:
 
+for (let i=50; i<100; i++) {
+    console.log(i);
+}
 
 
