@@ -43,16 +43,16 @@ if (typeof myNumber != "number") {
 let item = "Choose an item: Shoes, Jeans, Hat, and Socks";
 
 switch (item.toLowerCase()) {
-    case "Shoes":
+    case "shoes":
         console.log(`${item} are $50`);
         break;
-    case "Jeans":
+    case "jeans":
         console.log(`${item} are $25`);
         break;
-    case "Hat":
+    case "hat":
         console.log(`${item} is $12`);
         break;
-    case "Socks":
+    case "socks":
         console.log(`${item} are $2`);
         break;
     default:
